@@ -1,0 +1,6 @@
+{
+  "name": "The Aurelia Towers",
+  "description": "Ultra-luxury dual-tower architectural showcase on Victoria Embankment, London, featuring a cantilevered Level 34 thermal skybridge and vertical elevator ascension experience.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Cinzel", "Cormorant Garamond", Georgia, serif;
+  --font-serif: "Cormorant Garamond", Georgia, serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, SFMono-Regular, monospace;
+  --font-sans: "Inter", system-ui, -apple-system, sans-serif;
+
+  --color-obsidian: #09090B;
+  --color-river-midnight: #0E0E12;
+  --color-portland: #F4EFE6;
+  --color-bronze: #C29B38;
+  --color-volcanic-teal: #183B36;
+}
+
+@layer base {
+  html {
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-color: #09090B;
+    color: #F4EFE6;
+    font-family: var(--font-sans);
+    scrollbar-width: none;
+  }
+
+  html::-webkit-scrollbar {
+    display: none;
+  }
+
+  body {
+    width: 100%;
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-color: #09090B;
+    color: #F4EFE6;
+    font-family: var(--font-sans);
+  }
+
+  #root {
+    width: 100%;
+    min-height: 100%;
+  }
+}
+
+.editorial-shadow {
+  text-shadow: 0 2px 16px rgba(9, 9, 11, 0.92), 0 1px 4px rgba(9, 9, 11, 0.85);
+}
